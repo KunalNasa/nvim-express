@@ -1,12 +1,9 @@
 import {Router} from 'express'
+import {sayHello} from './controller.js'
 
 const router = new Router();
 
-router.get('/hello', (req, res) => {
-    return res.json({
-        hello: 'world'
-    });
-})
+router.get('/hello', sayHello);
 
 export default router;
 
