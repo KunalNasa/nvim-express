@@ -9,6 +9,7 @@ app.get('/', (req, res) => {
         name: 'kunal',
         from: 'neovim',
         create: "conflict from GH",
+        create: "conflict",
     });
 })
 const PORT = 9000;
