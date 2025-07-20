@@ -17,3 +17,8 @@ const PORT = 9000;
 app.listen(PORT, () => {
     console.log(`App is live on port ${PORT}`);
 })
+
+console.log("Hello world");
+console.log("New line added");
+console.log("One more line added");
+
